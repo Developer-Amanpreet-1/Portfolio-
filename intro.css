@@ -1,0 +1,225 @@
+ @import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
+
+      * {
+        text-decoration: none;
+        margin: 0%;
+        padding: 0%;
+      }
+      body{
+        background: url(b3.jpg);
+        background-size:cover;
+        background-repeat:no-repeat ;
+      }
+      .nav {
+  
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+          "sans-serif";
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 30px auto;
+      }
+      .navdiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: Anta, "sans-serif";
+      }
+      .menuIcon{
+  display: none;
+    }
+
+      .name {
+        font-size: larger;
+        font-weight: 700;
+        color: #ffffff;
+      }
+      li {
+        list-style: none;
+        display: inline-block;
+      }
+      li  :hover{
+        border-bottom: 1.5px solid  rgb(253, 162, 162);
+      }
+      li a {
+        color: #ffffff;
+        font-weight: bolder;
+        margin-right: 25px;
+      }
+   .intro{
+    margin: 1rem;
+   }
+   B{
+    color:bisque;
+   }
+   p{
+    margin: 5px;
+    color:#ffffff;
+   font-weight: bolder; 
+  }
+   .skillContact{
+      padding: 12px;
+  
+
+   }
+   .HTML{
+    width: 265px;
+    height: 6px;
+    background-color: rgb(244, 86, 13);
+    margin: top 10px;
+   }
+   .CSS{
+    width: 250px;
+    height: 6px;
+    background-color: rgb(244, 86, 13);
+    margin: top 10px;
+   }
+   .js{
+    width: 200px;
+    height: 6px;
+    background-color:rgb(244, 86, 13);
+    margin: top 10px;
+   }
+   .php{
+    width: 100px;
+    height: 6px;
+    background-color: rgb(244, 86, 13);
+    margin: top 10px;
+   }
+   .Photoshop{
+    width: 230px;
+    height: 6px;
+    background-color: rgb(244, 86, 13);
+    margin: top 10px;
+
+   }
+  
+   .skillItem{
+    color: azure;
+    margin-top: 6px;
+      font-weight: bolder; 
+    
+   
+   }
+   .mark{
+        display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding-left: 300px;
+   margin-bottom: 2rem;
+   }
+  span{
+ font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: italic;
+  }
+  h2{
+    color:#ffffff;
+    text-decoration: underline;
+      font-family: "Anton", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  }
+
+.icon{
+  display: flex;
+  background-color: transparent;
+ padding: 10px; 
+  justify-content: center; 
+  
+}
+.info{
+  display: flex;
+  padding: 0%;
+  margin: 0%;
+
+ 
+}
+.link i{
+  margin-left: 16px;
+  margin-right: 16px;
+  color: #ffffff;
+  font-size:x-large ;
+
+}
+.link i:hover{
+   transition: 0.2ms;
+  color: #ffffffab;
+}
+
+.link{
+  cursor: pointer;
+  padding: 1rem;
+}
+.main{
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.skillContact{
+margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+footer{
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+
+@media (max-width:700px){
+  *{
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+
+  }
+  body{
+    background: url(b4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+ .nav ul{
+    display: flex;
+   position: absolute; 
+   top: 25px; 
+   left: 0;
+   right: 0;
+   flex-direction: column;
+   text-align: center;
+   overflow:hidden;
+   background-color: rgba(0, 0, 0, 0.374);
+}
+.nav ul li{
+  padding: 5px;
+}
+.menuIcon{
+  font-size: x-large;
+  color: #ffffff;
+  display: block;
+  cursor: pointer;
+}
+.menuIcon :hover{
+  padding: 5px;
+  border: 2px solid rgba(231, 215, 44, 0.626);
+  border-radius: 10cm;
+
+}
+#menuBar{
+  transform: all 1s;
+}
+
+.main{
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+.skillContact{
+margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+
+.icon{
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  margin: 0%;
+  padding: 0%;
+}
+
+}
